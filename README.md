@@ -1,4 +1,4 @@
-﻿# PJ-  Login Instagram
+﻿# PJ - Login Instagram
 Este projeto se trata de um clone da tela de login do Instagram. Este projeto está contido no curso HTML e CSS: Técnicas Avançadas, provido pelo Matheus Baptisti. O curso está disponível da Udemy.
 
 ## Sobre o projeto
