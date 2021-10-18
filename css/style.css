@@ -246,6 +246,7 @@ footer #footer-links a{
    footer{
       width: 90%;
       text-align: center;
+      margin: 50px auto;
    }
 
    #footer-link{
