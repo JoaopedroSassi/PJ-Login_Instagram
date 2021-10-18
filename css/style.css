@@ -7,6 +7,10 @@
    background: #FAFAFA;
 }
 
+body{
+   margin-top: 7%;
+}
+
 /* Containers */
 #main-container{
    display: flex;
