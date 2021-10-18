@@ -141,3 +141,75 @@
    color: #373799;
    background-color: #FFF;
 }
+
+/* Register */
+#register-container{
+   background-color: #FFF;
+   border: 1px solid #D8DBDB;
+   width: 350px;
+   margin-top: 10px;
+   padding: 25px;
+}
+
+#register-container p{
+   font-size: 14px;
+   color: #262626;
+   background-color: #FFF;
+}
+
+#register-container a {
+   color: #4a95f6;
+   font-weight: bold;
+   text-decoration: none;
+   background-color: #FFF;
+}
+
+/* Get app */
+#get-app-container{
+   text-align: center;
+   width: 350px;
+}
+
+#get-app-container p{
+   margin: 20px 0;
+   font-size: 13px;
+}
+
+#get-app-container a{
+   text-decoration: none;
+}
+
+#get-app-container img{
+   width: 136px;
+   height: 40px;
+}
+
+/* Footer */
+footer{
+   text-align: left;
+   width: 1000px;
+   margin: 50px auto;
+}
+
+footer #footer-links{
+   list-style: none;
+}
+
+footer #footer-links li{
+   display: inline-block;
+   margin-right: 10px;
+}
+
+footer #footer-links a{
+   text-decoration: none;
+   color: #00376B;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+#copyright{
+   font-size: 12px;
+   text-transform: uppercase;
+   color: #8e8e8e;
+   margin-top: 10px;
+}
