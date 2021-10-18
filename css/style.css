@@ -1,0 +1,143 @@
+/* General */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Helvetica;
+   background: #FAFAFA;
+}
+
+/* Containers */
+#main-container{
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+}
+
+#banner-container, #form-container{
+   flex: 1 1 0;
+   width: 50%;
+}
+
+#banner-container{
+   text-align: right;
+}
+
+#banner-container img{
+   margin-right: -15px;
+}
+
+#form-container{
+   text-align: center;
+}
+
+/* Login form */
+#form-box{
+   background-color: #FFF;
+   border: 1px solid #D8DBDB;
+   width: 350px;
+   margin-top: 30px;
+}
+
+#form-box #logo-insta{
+   width: 175px;
+   height: 51px;
+   margin: 30px auto 12px;
+   background: #FFF;
+}
+
+#login-form{
+   margin-top: 20px;
+   background: #FFF;
+}
+
+#login-form input{
+   display: block;
+   font-size: 12px;
+   padding: 12px 9px;
+   border: 1px solid #D8DBDB;
+   border-radius: 3px;
+   width: 268px;
+   margin: 5px auto;
+}
+
+#login-form input[type="submit"]{
+   background-color: #82dffc;
+   color: #FFF;
+   margin-top: 15px;
+   border-radius: 5px;
+   height: 30px;
+   border-color: #82dffc;
+   font-size: 13px;
+   padding: 0;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+/* separator */
+.separator{
+   position: relative;
+}
+
+.separator .line{
+   border-top: 1px solid #D8DBDB;
+   width: 268px;
+   margin: 25px auto 35px;
+}
+
+.separator span{
+   position: absolute;
+   text-transform: uppercase;
+   color: #BBB;
+   width: 50px;
+   top: -6px;
+   left: 50%;
+   margin-left: -25px;
+   font-size: 14px;
+   font-weight: bold;
+   background-color: #FFF;
+}
+
+/* Facebook login + other links*/
+#other-links{
+   background-color: #FFF;
+}
+
+#facebook-login{
+   margin-bottom: 25px;
+}
+
+#facebook-login a{
+   text-decoration: none;
+   color: #385185;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #FFF;
+}
+
+#facebook-login img {
+   width: 16px;
+   height: 16px;
+   margin-right: 8px;
+}
+
+#facebook-login span{
+   font-weight: bold;
+   font-size: 13px;
+   margin-top: 1px;
+   background-color: #FFF;
+}
+
+/* Forgot pass */
+#forgot-pass{
+   margin-bottom: 20px;
+   font-size: 12px;
+   background-color: #FFF;
+}
+
+#forgot-pass a{
+   text-decoration: none;
+   color: #373799;
+   background-color: #FFF;
+}
