@@ -193,6 +193,7 @@ footer{
    text-align: left;
    width: 1000px;
    margin: 50px auto;
+   margin-left: 50px;
 }
 
 footer #footer-links{
@@ -216,4 +217,38 @@ footer #footer-links a{
    text-transform: uppercase;
    color: #8e8e8e;
    margin-top: 10px;
+}
+
+/* Mobile */
+@media (max-width: 850px){
+   *{
+      background-color: #FFF;
+   }
+
+   #banner-container{
+      display: none;
+   }
+
+   #main-container,
+   #form-box,
+   body{
+      margin-top: 0;
+   }
+
+   #form-container,
+   #form-box,
+   #register-container,
+   #get-app-container{
+      width: 100%;
+      border: none;
+   }
+
+   footer{
+      width: 90%;
+      text-align: center;
+   }
+
+   #footer-link{
+      margin-bottom: 10px;
+   }
 }
